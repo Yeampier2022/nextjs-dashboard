@@ -27,10 +27,12 @@ export default function Page() {
             </Link>
             , brought to you by Vercel.
           </p>
-          <div className="bg-blue-500 rounded-lg p-[0.5vw] w-[6vw] h-[2vw] flex gap-[0.5vw] cursor-pointer">
-            Log in
-            <ArrowRightIcon className="hidden md:block h-6 w-6 text-gray-800" />
-          </div>
+          <a href="/dashboard">
+            <div className="bg-blue-500 rounded-lg p-[0.5vw] w-[6vw] h-[2vw] flex gap-[0.5vw] cursor-pointer">
+              Log in
+              <ArrowRightIcon className="hidden md:block h-6 w-6 text-gray-800" />
+            </div>
+          </a>
         </div>
 
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12 bg-[#ffffff]">
