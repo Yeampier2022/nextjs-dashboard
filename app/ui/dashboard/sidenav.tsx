@@ -32,7 +32,7 @@ export default function Page() {
     <div className="grid size-full grid-rows-5 gap-1">
       <div className="bg-blue-400 w-full">
         <Image
-          src="/Acme.png"
+          src="/acme.png"
           width={50}
           height={200}
           className="hidden md:block h-10 w-15 top-[7.5vw] absolute"
