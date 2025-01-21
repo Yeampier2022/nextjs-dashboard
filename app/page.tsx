@@ -27,7 +27,7 @@ export default function Page() {
             </Link>
             , brought to you by Vercel.
           </p>
-          <a href="/dashboard">
+          <a href="/dashboard/overview">
             <div className="bg-blue-500 rounded-lg p-[0.5vw] w-[6vw] h-[2vw] flex gap-[0.5vw] cursor-pointer">
               Log in
               <ArrowRightIcon className="hidden md:block h-6 w-6 text-gray-800" />
